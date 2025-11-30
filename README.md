@@ -78,3 +78,17 @@ Root
 1. **I/O 瓶颈**：在大数据处理中，磁盘 I/O 是最大的性能瓶颈，利用缓冲区进行块操作是基础，而利用异步 I/O 掩盖延迟是进阶。
 2. **算法与硬件结合**：置换选择排序巧妙利用内存特性，打破了物理内存大小对 Run 长度的限制。
 3. **并发系统设计**：在 Project 2 中设计并发模型，深刻体会了线程同步和资源竞争的处理。
+
+## 编译运行与了解更多
+### Project 1
+```bash
+g++ -O2 -std=c++17 project1/*.cpp -o project1_sort
+./project1_sort
+```
+### Project 2
+```bash
+g++ -O2 -std=c++17 project2/*.cpp -lpthread -o project2_sort
+./project2_sort
+```
+### 了解更多
+你可以查看project1.docx和project2.docx来了解更多。
