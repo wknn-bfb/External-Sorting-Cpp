@@ -16,8 +16,26 @@
 ## 项目文件结构及系统架构
 
 ### 1. 文件结构
-
-
+```text
+Root
+├── project1/           # [基础版]：内排 + 迭代式二路归并
+│   ├── main.cpp
+│   ├── RunFile.h
+│   ├── InputBuffer.h
+│   ├── OutputBuffer.h
+│   ├── RunGenerator.h
+│   └── Merger.h
+│
+├── project2/           # [进阶版]：置换选择排序 + 并行生成 + 最佳归并树
+│   ├── main.cpp
+│   ├── RunFile.h
+│   ├── InputBuffer.h
+│   ├── OutputBuffer.h
+│   ├── LoserTree.h
+│   ├── RunGenerator.h
+│   └── Merger.h
+│
+└── README.md
 
 ### 2. 系统架构
 
